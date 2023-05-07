@@ -3,15 +3,83 @@
     box-sizing: border-box;
     list-style: none;
 }
-.box2 .box {
-    word-spacing: 10px;
+.kontenir{
+  margin: auto;  
+  padding: 10px 80px;
 }
-.box2 h1{
+header{
+    background-color: #FFFFFF;
+}
+h1{
     display: flex;
+    align-items: center;
 }
-.box1 .box2{
-    display:flex
-}
-.box1{
+.box-1{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto; 
+    justify-content: space-between;
+    align-items: center;
+}
+.box-1  ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-1 ul .box{
+     font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.box-1 ul .tell{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 5px;
+    border: solid;
+    background-color: #00BAFC;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    padding: 8px 16px;
+    flex-direction: row;
+}
+main .box-2 .element-1{
+    display: flex;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: left;
+   align-items: center;
+}
+main .box-2 .element-4{
+    left: calc(0% - 458px/2);
+    top: calc(50% - 258px/2);
+}
+main .box-2 .element-2{
+    display: flex;
+    justify-content: space-between;
+}
+main .box-2{
+    display: flex;
+    padding: 100px 80px 10px 80px;
+    justify-content: space-between;
+}
+.box-2 .element-5{
+    padding: 0px;
+}
+.box-2 .element-3{
+    border-radius: 5px;
+    background-color: #00BAFC;
+    align-self: flex-start;
+    padding: 8px 16px;
+   align-items: center;
+   gap: 10px;
 }
